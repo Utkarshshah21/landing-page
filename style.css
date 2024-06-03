@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 0;
     height: 100em;
     display: flex;
@@ -141,5 +141,246 @@ box1{
     font-size: 18px;
     margin: 8px 0;
 
+} */
+
+
+/* starting of the website */
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+ }
+
+
+ .header{
+    color: white;
+    background: #1F2937;
+    min-height: 500px;
+    max-height: 600px;
+    padding: 10px 200px;
+ }
+
+/* navigation  */
+
+.header nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0 100px 0;
 }
 
+nav h2{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+ text-decoration: none;
+ 
+}
+nav li {
+    margin-left: 70px; 
+}
+
+nav a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-transform: capitalize;
+
+}
+nav a:hover{
+    color:#3882f6  ;
+    transition: all ease-in 0.3s;
+}
+/* hero content / text  */
+
+.hero_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero_content .col1{
+    height: 200px;
+    width: 400px;
+       
+}
+.col1 h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.col1 h3{
+    font-size: 18px ;
+    color: #e5e7eb;
+    margin: 10px 0 ;
+    font-weight: 400;
+}
+.col1 button{
+    background: #3882f6;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+    border: transparent;
+}
+
+.col1 button:hover{
+    background: white;
+    color: #3882f6;
+    transition: all ease-in 0.3s;
+}
+
+.hero_content .col2{
+    height: 200px;
+    width: 600px;
+    background: #989898;
+}
+.hero_content .col2 h5{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin:90px;
+}
+
+
+/*  hero section ended here  */
+
+
+/* section 2 here  */
+
+
+.part2{
+    color: black;
+    text-align: center;
+    margin: 30px 0;
+    padding: 10px 200px;
+    min-height: 450px;
+}
+
+.head{
+    font-size: xx-large;
+    margin: 20px 0 60px 0;
+}
+
+
+.containers{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.box{
+    height:250px;
+    width: 250px;
+    text-align: center;
+}
+
+.box .border-img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.box p{
+    font-size:large;
+}
+
+
+
+/*  part 2 end here  */
+
+/*  part 3 start here / section 3 start here all i know is that i am starting from here   */
+
+.part3{
+    min-height: 400px;
+    width: 100%;
+    background: #e5e7eb;
+}
+
+.content{
+    padding: 120px 250px 0 250px;
+}
+.content h2{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.content p{
+    font-weight: 900;
+    font-size: x-large ;
+    text-align: end;
+}
+/* part 3 end here  */
+
+
+/*  part 4 start here and section 4 start here  */
+
+
+.part4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    width: 100%;
+}
+
+
+.part4_content{
+    min-height: 150px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background: #3882f6;
+    color: white;
+    padding: 0 100px;
+    border-radius: 15px;
+}
+
+.part4-text{
+    margin-right: 250px;
+}
+.part4-text h4{
+    font-size: x-large;
+}
+.part4_content button {
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    border: 2px solid white ;
+    background: #3882f6;
+    color: #f9faf8;
+    font-size: large;
+    font-weight: 600;
+}
+.part4_content button:hover{
+    color: #3882f6;
+    background: white;
+    transition: all ease-in 0.3s;
+}
+
+
+/* part 4 end here  */
+
+/* footer here  */
+
+footer{
+    height: 100px;
+    background: #1F2937;
+    color: white;
+    font-size: x-large ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
